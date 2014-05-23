@@ -159,7 +159,7 @@ set hlsearch
 syntax on
 
 " show line numbers
-set nu
+" set nu
 
 " tab navigation mappings
 map tn :tabn<CR>
@@ -335,10 +335,10 @@ nmap ,o :RopeFindOccurrences<CR>
 " most of them not documented because I'm not sure how they work
 " (docs aren't good, had to do a lot of trial and error to make 
 " it play nice)
-let g:neocomplcache_enable_at_startup = 1
+" let g:neocomplcache_enable_at_startup = 1
 let g:neocomplcache_enable_ignore_case = 1
 let g:neocomplcache_enable_smart_case = 1
-let g:neocomplcache_enable_auto_select = 1
+" let g:neocomplcache_enable_auto_select = 1
 let g:neocomplcache_enable_fuzzy_completion = 1
 let g:neocomplcache_enable_camel_case_completion = 1
 let g:neocomplcache_enable_underbar_completion = 1
